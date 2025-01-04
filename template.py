@@ -12,18 +12,18 @@ list_of_files=[
     #".github/workflows./gitkeep",
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
-    f"src/{project_name}/components/data_ingestion",
-    f"src/{project_name}/components/data_transformatoin",
+    f"src/{project_name}/components/data_ingestion.py",
+    f"src/{project_name}/components/data_transformatoin.py",
     f"src/{project_name}/components/Modal_tranier/__init__.py",
-    f"src/{project_name}/components/Model_monitoring",
+    f"src/{project_name}/components/Model_monitoring.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/pipeline/train_pipeline.py",
     f"src/{project_name}/pipeline/prediction_pipeline.py",
-    f"src/{project_name}/utils",
+    f"src/{project_name}/utils.py",
     f"src/{project_name}/logger.py",
     f"src/{project_name}/exception_handing.py",
     "app.py",
-
+    "main.py"
     
 
 ]
